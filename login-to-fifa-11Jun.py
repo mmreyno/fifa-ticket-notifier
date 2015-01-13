@@ -28,8 +28,8 @@ for i in desired_games:
         SMTP_PORT = 587
         password = ''
          
-        sender = 'matthewmreynolds@gmail.com'
-        recipient = 'matthewmreynolds@gmail.com'
+        sender = ''
+        recipient = ''
         subject = number_of_tickets + ' TICKETS FOR ' + successful_game + ' CAT' + successful_cat
         body = 'Go buy it!' 
          
